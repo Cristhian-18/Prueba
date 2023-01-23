@@ -13,21 +13,21 @@ export class ConexMarcaService {
   getMarcas(){
     return this.http.get(this.url);
 };
- //get un Producto
+ //gdacasd
  getUnmARCA(id_Marca:number){
   return this.http.get(this.url+'/'+id_Marca)
 };
-///Agregar
+///adacdcaxzcd
 addMarca(marca:Marca){
   return this.http.post(this.url,marca);
 };
 
-//eliminar
+//ddmamdiamda
 deletemarca(id:number){
   return this.http.delete(this.url+'/'+id);
 
 };
-//editar
+//dascdaczxz
 editmarca(id:number, marca:Marca){
   return this.http.put(this.url+'/'+id,marca);
 
