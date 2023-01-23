@@ -16,20 +16,7 @@ export class ConexProductosService {
   };
 
  
-  getUnProducto(id:number){
-    return this.http.get(this.url+'/'+id)
-  };
-
- 
-  addProdcuto(producto:Producto){
-    return this.http.post(this.url,producto);
-  };
-
-  //eliminar
-  deletproducto(id:number){
-    return this.http.delete(this.url+'/'+id);
-
-  };
+  
   //modificar
   editproducto(id:number, producto:Producto){
     return this.http.put(this.url+'/'+id,producto);
