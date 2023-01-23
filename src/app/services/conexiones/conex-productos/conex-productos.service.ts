@@ -15,10 +15,6 @@ export class ConexProductosService {
     return this.http.get(this.url);
   };
 
-  getAdministacion(){
-    return this.http.get(this.url);
-  };
-
   //get un Producto
   getUnProducto(id:number){
     return this.http.get(this.url+'/'+id)
@@ -41,7 +37,6 @@ export class ConexProductosService {
   };
   
 }
-console.log("Servicio en Uso PRODUCTO");
 export interface Producto{
   pk_id_producto:number;
   codigo_producto:string; 
