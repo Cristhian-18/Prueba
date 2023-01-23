@@ -15,12 +15,12 @@ export class ConexProductosService {
     return this.http.get(this.url);
   };
 
-  //get un Producto
+ 
   getUnProducto(id:number){
     return this.http.get(this.url+'/'+id)
   };
 
-  ///Agregar
+ 
   addProdcuto(producto:Producto){
     return this.http.post(this.url,producto);
   };
