@@ -19,13 +19,11 @@ export class ConexProductosService {
   getUnProducto(id:number){
     return this.http.get(this.url+'/'+id)
   };
-
-  ///Agregar
+//dasaddefwew
   addProdcuto(producto:Producto){
     return this.http.post(this.url,producto);
   };
-
-  //eliminar
+//sdadsadsa
   deletproducto(id:number){
     return this.http.delete(this.url+'/'+id);
 
