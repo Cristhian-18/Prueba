@@ -10,12 +10,11 @@ export class ConexProductosService {
   url='/producto';
   constructor(private http:HttpClient) { }
   
-  //getProdcuto
+//sfadadgga holaaa //
   getProdcuto(){
     return this.http.get(this.url);
   };
-
-  //get un Producto
+//////que ondaaa///
   getUnProducto(id:number){
     return this.http.get(this.url+'/'+id)
   };
